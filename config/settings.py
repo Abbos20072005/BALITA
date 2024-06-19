@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # }
 
 DATABASE = {
-    'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    'ENGINE': 'django.db.backends.postgresql',
     'NAME': 'abbos_balita',
     'USER': 'doadmin',
     'PASSWORD': 'AVNS_feJOFOu7KkwbdfMc3JX',
