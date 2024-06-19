@@ -83,12 +83,14 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # }
 
 DATABASES = {
-    'ENGINE': 'django.db.backends.postgresql',
-    'NAME': 'abbos_balita',
-    'USER': 'doadmin',
-    'PASSWORD': 'AVNS_feJOFOu7KkwbdfMc3JX',
-    'HOST': 'do-db-do-user-16947834-0.c.db.ondigitalocean.com',
-    'PORT': 25060,
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'abbos_balita',
+        'USER': 'doadmin',
+        'PASSWORD': 'AVNS_feJOFOu7KkwbdfMc3JX',
+        'HOST': 'do-db-do-user-16947834-0.c.db.ondigitalocean.com',
+        'PORT': 25060,
+    }
 }
 
 
