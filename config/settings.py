@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 #     }
 # }
 
-DATABASE = {
+DATABASES = {
     'ENGINE': 'django.db.backends.postgresql',
     'NAME': 'abbos_balita',
     'USER': 'doadmin',
